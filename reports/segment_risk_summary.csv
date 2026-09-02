@@ -1,0 +1,8 @@
+segment,customers,avg_inactivity_probability,value_at_risk
+Champions,1119,0.213,147305.82
+Loyal Customers,822,0.45,139826.67
+Hibernating,755,0.664,97913.64
+At Risk,462,0.585,60972.5
+Potential Loyalist,174,0.588,20523.78
+New Customers,137,0.667,15135.75
+Lost Customers,2,0.712,214.22

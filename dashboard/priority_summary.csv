@@ -1,0 +1,8 @@
+retention_priority,customers,value_at_risk,avg_inactivity_probability,recent_revenue,pct_customers,action
+1 - Critical,152,65573.39,0.38,355320.94,3.5,Personal contact from account manager plus a tailored offer
+2 - High,498,123729.71,0.43,884594.29,11.5,Targeted offer on their usual categories
+3 - Low-Cost Retention,271,12718.68,0.8,32222.49,6.3,Automated email or discount code only
+3 - Monitor,408,82633.55,0.48,341655.04,9.4,Add to the standard nurture campaign and re-score next month
+4 - Maintain,378,30242.23,0.04,2740055.52,8.7,Loyalty rewards and early access - protect the relationship
+5 - Low Priority,1764,166994.82,0.49,898022.73,40.7,No action needed - keep in normal marketing
+6 - Reactivation,863,0.0,,0.0,19.9,Outside the 180-day scoring window - low-cost reactivation campaign

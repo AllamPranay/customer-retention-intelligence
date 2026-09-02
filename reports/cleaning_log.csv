@@ -1,0 +1,7 @@
+step,rows_after,rows_removed,note
+drop exact duplicates,536641,5268,
+separate cancellations,527390,9251,"9,251 cancelled lines kept for features"
+drop missing CustomerID,392732,134658,"unattributed revenue GBP 1,732,778"
+drop quantity <= 0,392732,0,
+drop unit price <= 0,392692,40,
+drop admin stock codes,392398,294,"bank charges, fees, discounts, manual adj."

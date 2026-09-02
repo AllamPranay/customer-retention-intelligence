@@ -1,0 +1,10 @@
+customer_value_tier,risk_band,customers,value_at_risk,avg_inactivity_probability,priority
+High,High,152,65573.39,0.375,1 - Critical
+High,Low,378,30242.23,0.044,4 - Maintain
+High,Medium,226,72401.9,0.192,2 - High
+Low,High,271,12718.68,0.801,3 - Low-Cost Retention
+Low,Low,678,56908.14,0.586,5 - Low Priority
+Low,Medium,407,29683.49,0.717,5 - Low Priority
+Medium,High,272,51327.81,0.633,2 - High
+Medium,Low,679,80403.19,0.269,5 - Low Priority
+Medium,Medium,408,82633.55,0.484,3 - Monitor

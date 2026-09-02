@@ -1,0 +1,241 @@
+{
+  "selected_model": "Logistic Regression",
+  "operating_threshold": 0.5,
+  "validation": "out-of-time (train cut-off 2011-06-09, test cut-off 2011-09-09)",
+  "observation_days": 180,
+  "horizon_days": 90,
+  "train_customers": 2625,
+  "test_customers": 2775,
+  "train_inactive_rate": 0.501,
+  "test_inactive_rate": 0.3845,
+  "results": {
+    "Logistic Regression": {
+      "test_out_of_time": {
+        "threshold": 0.5,
+        "accuracy": 0.6562,
+        "precision": 0.5383,
+        "recall": 0.7441,
+        "f1": 0.6247,
+        "roc_auc": 0.7302,
+        "true_negatives": 1027,
+        "false_positives": 681,
+        "false_negatives": 273,
+        "true_positives": 794
+      },
+      "train_roc_auc": 0.7675,
+      "train_cv_roc_auc": 0.7624
+    },
+    "Random Forest": {
+      "test_out_of_time": {
+        "threshold": 0.5,
+        "accuracy": 0.6562,
+        "precision": 0.5377,
+        "recall": 0.7554,
+        "f1": 0.6282,
+        "roc_auc": 0.7271,
+        "true_negatives": 1015,
+        "false_positives": 693,
+        "false_negatives": 261,
+        "true_positives": 806
+      },
+      "train_roc_auc": 0.8237,
+      "train_cv_roc_auc": 0.7558
+    }
+  },
+  "top_features": [
+    {
+      "feature": "active_weeks",
+      "importance": 0.139,
+      "coefficient": -1.3848,
+      "pushes_towards": "staying active"
+    },
+    {
+      "feature": "avg_order_value",
+      "importance": 0.05854,
+      "coefficient": -0.6313,
+      "pushes_towards": "staying active"
+    },
+    {
+      "feature": "max_order_value",
+      "importance": 0.03441,
+      "coefficient": 0.8183,
+      "pushes_towards": "inactivity"
+    },
+    {
+      "feature": "avg_days_between_orders",
+      "importance": 0.01875,
+      "coefficient": 0.3355,
+      "pushes_towards": "inactivity"
+    },
+    {
+      "feature": "monetary",
+      "importance": 0.00796,
+      "coefficient": -0.2293,
+      "pushes_towards": "staying active"
+    },
+    {
+      "feature": "avg_basket_size",
+      "importance": 0.00775,
+      "coefficient": -0.2359,
+      "pushes_towards": "staying active"
+    },
+    {
+      "feature": "unique_products",
+      "importance": 0.00626,
+      "coefficient": -0.1408,
+      "pushes_towards": "staying active"
+    },
+    {
+      "feature": "frequency",
+      "importance": 0.00492,
+      "coefficient": 0.2367,
+      "pushes_towards": "inactivity"
+    },
+    {
+      "feature": "recency_days",
+      "importance": 0.00234,
+      "coefficient": 0.0729,
+      "pushes_towards": "inactivity"
+    },
+    {
+      "feature": "cancel_orders",
+      "importance": 0.00161,
+      "coefficient": -0.0682,
+      "pushes_towards": "staying active"
+    }
+  ],
+  "threshold_tradeoff": [
+    {
+      "threshold": 0.3,
+      "customers_flagged": 2070,
+      "pct_of_base_flagged": 74.6,
+      "precision": 0.476,
+      "recall": 0.923,
+      "f1": 0.628
+    },
+    {
+      "threshold": 0.35,
+      "customers_flagged": 1933,
+      "pct_of_base_flagged": 69.7,
+      "precision": 0.491,
+      "recall": 0.889,
+      "f1": 0.633
+    },
+    {
+      "threshold": 0.4,
+      "customers_flagged": 1778,
+      "pct_of_base_flagged": 64.1,
+      "precision": 0.506,
+      "recall": 0.843,
+      "f1": 0.633
+    },
+    {
+      "threshold": 0.45,
+      "customers_flagged": 1612,
+      "pct_of_base_flagged": 58.1,
+      "precision": 0.525,
+      "recall": 0.793,
+      "f1": 0.632
+    },
+    {
+      "threshold": 0.5,
+      "customers_flagged": 1475,
+      "pct_of_base_flagged": 53.2,
+      "precision": 0.538,
+      "recall": 0.744,
+      "f1": 0.625
+    },
+    {
+      "threshold": 0.55,
+      "customers_flagged": 1342,
+      "pct_of_base_flagged": 48.4,
+      "precision": 0.55,
+      "recall": 0.692,
+      "f1": 0.613
+    },
+    {
+      "threshold": 0.6,
+      "customers_flagged": 1188,
+      "pct_of_base_flagged": 42.8,
+      "precision": 0.568,
+      "recall": 0.633,
+      "f1": 0.599
+    },
+    {
+      "threshold": 0.65,
+      "customers_flagged": 943,
+      "pct_of_base_flagged": 34.0,
+      "precision": 0.584,
+      "recall": 0.516,
+      "f1": 0.548
+    },
+    {
+      "threshold": 0.7,
+      "customers_flagged": 648,
+      "pct_of_base_flagged": 23.4,
+      "precision": 0.602,
+      "recall": 0.366,
+      "f1": 0.455
+    },
+    {
+      "threshold": 0.75,
+      "customers_flagged": 349,
+      "pct_of_base_flagged": 12.6,
+      "precision": 0.628,
+      "recall": 0.205,
+      "f1": 0.309
+    },
+    {
+      "threshold": 0.8,
+      "customers_flagged": 139,
+      "pct_of_base_flagged": 5.0,
+      "precision": 0.727,
+      "recall": 0.095,
+      "f1": 0.167
+    }
+  ],
+  "campaign_lift": [
+    {
+      "customers_contacted": 250,
+      "pct_of_base_contacted": 9.0,
+      "inactive_customers_caught": 161,
+      "recall": 0.151,
+      "precision": 0.644,
+      "lift_vs_random": 1.67
+    },
+    {
+      "customers_contacted": 500,
+      "pct_of_base_contacted": 18.0,
+      "inactive_customers_caught": 311,
+      "recall": 0.291,
+      "precision": 0.622,
+      "lift_vs_random": 1.62
+    },
+    {
+      "customers_contacted": 750,
+      "pct_of_base_contacted": 27.0,
+      "inactive_customers_caught": 446,
+      "recall": 0.418,
+      "precision": 0.595,
+      "lift_vs_random": 1.55
+    },
+    {
+      "customers_contacted": 1000,
+      "pct_of_base_contacted": 36.0,
+      "inactive_customers_caught": 581,
+      "recall": 0.545,
+      "precision": 0.581,
+      "lift_vs_random": 1.51
+    },
+    {
+      "customers_contacted": 1500,
+      "pct_of_base_contacted": 54.1,
+      "inactive_customers_caught": 804,
+      "recall": 0.754,
+      "precision": 0.536,
+      "lift_vs_random": 1.39
+    }
+  ],
+  "scored_customers": 3471,
+  "scored_high_risk_absolute": 582
+}

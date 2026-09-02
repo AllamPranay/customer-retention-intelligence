@@ -1,0 +1,19 @@
+{
+  "customers_total": 4334,
+  "customers_scored": 3471,
+  "customers_already_dormant": 863,
+  "high_risk_customers": 695,
+  "total_value_at_risk": 481892.38,
+  "critical_customers": 152,
+  "critical_value_at_risk": 65573.39,
+  "critical_share_of_var_pct": 13.6,
+  "top1_2_priority_customers": 650,
+  "top1_2_value_at_risk": 189303.1,
+  "value_at_risk_validation": {
+    "predicted_expected_revenue": 1415514.58,
+    "actual_future_revenue": 2515102.48,
+    "predicted_over_actual": 0.563,
+    "top_decile_lapsed_value": 110031.0,
+    "bottom_decile_lapsed_value": 5110.0
+  }
+}

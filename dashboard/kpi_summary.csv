@@ -1,0 +1,2 @@
+total_customers,total_revenue,total_orders,avg_order_value,repeat_customers,repeat_purchase_rate_pct,revenue_from_repeat_pct,customers_scored,high_risk_customers,critical_customers,customer_value_at_risk,critical_value_at_risk,already_dormant_customers,model_roc_auc,model_name,data_start,data_end
+4334,8833623.96,18457,478.61,2838,65.5,93.0,3471,695,152,481892.38,65573.39,863,0.7302,Logistic Regression,2010-12-01,2011-12-09

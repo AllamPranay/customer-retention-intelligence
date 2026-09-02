@@ -1,0 +1,8 @@
+segment,customers,avg_recency_days,avg_frequency,avg_monetary,total_revenue,pct_customers,pct_revenue,avg_inactivity_probability,value_at_risk
+Champions,1119,12.0,10.0,5211.9,5832088.1,25.8,66.0,0.213,147305.82
+Loyal Customers,822,36.3,3.7,1652.5,1358358.1,19.0,15.4,0.45,139826.67
+Potential Loyalist,174,17.2,1.4,532.5,92647.9,4.0,1.0,0.588,20523.78
+New Customers,137,17.1,1.0,368.2,50441.7,3.2,0.6,0.667,15135.75
+At Risk,659,149.5,3.4,1240.0,817177.4,15.2,9.3,0.585,60972.5
+Hibernating,755,86.4,1.2,483.7,365224.1,17.4,4.1,0.664,97913.64
+Lost Customers,668,277.0,1.1,475.6,317686.6,15.4,3.6,0.712,214.22

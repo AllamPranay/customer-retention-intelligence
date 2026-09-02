@@ -1,0 +1,13 @@
+feature,importance,coefficient,pushes_towards
+active_weeks,0.139,-1.3848,staying active
+avg_order_value,0.05854,-0.6313,staying active
+max_order_value,0.03441,0.8183,inactivity
+avg_days_between_orders,0.01875,0.3355,inactivity
+monetary,0.00796,-0.2293,staying active
+avg_basket_size,0.00775,-0.2359,staying active
+unique_products,0.00626,-0.1408,staying active
+frequency,0.00492,0.2367,inactivity
+recency_days,0.00234,0.0729,inactivity
+cancel_orders,0.00161,-0.0682,staying active
+purchase_trend_ratio,0.00045,-0.0755,staying active
+tenure_days,-0.0002,-0.0277,staying active
