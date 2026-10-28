@@ -1,4 +1,4 @@
-# Customer Retention Intelligence
+# Customer Retention Analytics (RFM & Cohorts)
 
 ### Customer Segmentation, Inactivity Prediction & Retention Strategy
 
